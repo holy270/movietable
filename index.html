@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>갤러리웹페이지 실습</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/dfce9e1845.js" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/script.js" defer></script>
+ 
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+     <div class="header_title">
+      <p>MOVIE<br>TABLE</p>
+      <p>movie poster</p>
+     </div>
+     <ul class="sns">
+      <li><a href="https://x.com/?lang=ko"><i class="fa-brands fa-square-twitter"></i> <span>Twitter</span> </a></li>
+      <li><a href="https://www.facebook.com/?locale=ko_KR"><i class="fa-brands fa-square-facebook"></i>
+       <span>Facebook</span> </a></li>
+      <li><a href="https://www.google.com/intl/ko/gmail/about/"><i class="fa-solid fa-envelope"></i>  
+       <span>E-mail</span> </a></li>
+     </ul>
+    </header>
+    <section class="main">
+      <ul class="btns">
+       <li data-filter=".even">Domestic</li>
+       <li data-filter=".odd">Overseas</li>
+       <li class="on" data-filter="*">ALL</li>
+      </ul>
+      <div class="contents">
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/기생충.jpg" rel="g1" class="fancybox">
+          <img src="imgs/기생충.jpg" alt="x">
+          <p>기생충</p>
+          <p><i class="fa-solid fa-star"> 9.7</i> <br>
+            전원백수로 살 길 막막하지만 사이는 좋은 기택 가족. 글로벌 IT기업 CEO인 박사장의 저택 지하에 몰래 숨어산다.</p>
+         </a>
+        </div>
+       </div><!-- box 1 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/에이리언.jpg" rel="g2" class="fancybox">
+          <img src="imgs/에이리언.jpg" alt="x">
+          <p>에이리언:로물루스</p>
+          <p><i class="fa-solid fa-star"> 8.76</i> <br>
+            2142년, 식민 행성을 떠나려는 청년들. 버려진 우주 기지 ‘로물루스’에 도착한 이들은 악몽과도 같은 에이리언의 무자비한 공격에 쫓기기 시작한다.</p>
+         </a>
+        </div>
+       </div><!-- box 2 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/파일럿.jpg" rel="g1" class="fancybox">
+          <img src="imgs/파일럿.jpg" alt="x">
+          <p>파일럿</p>
+          <p><i class="fa-solid fa-star"> 7.72</i> <br>
+            스타 파일럿 한정우는 순간의 잘못으로 하루아침에 모든 것을 잃고 실직한다. 궁지에 몰린 한정우는 여동생의 신분으로 취업하는데...</p>
+         </a>
+        </div>
+       </div><!-- box 3 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/인사이드아웃2.jpg" rel="g2" class="fancybox">
+          <img src="imgs/인사이드아웃2.jpg" alt="x">
+          <p>인사이드아웃2</p>
+          <p><i class="fa-solid fa-star"> 8.95</i> <br>
+            디즈니·픽사의 대표작 '인사이드 아웃'! 13살이 된 라일리의 행복을 위해 매일 바쁘게 일하는 감정들은 새로운 감정들에 의해 본부에서 쫓겨나고 다시 본부로 돌아가기 위해 위험천만한 모험을 시작하는데…</p>
+         </a>
+        </div>
+       </div><!-- box 4 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/그어살.jpg" rel="g1" class="fancybox">
+          <img src="imgs/그어살.jpg" alt="x">
+          <p>그대들은 어떻게 살 것인가</p>
+          <p><i class="fa-solid fa-star"> 6.96</i> <br>
+            화재로 어머니를 잃은 11살 소년 ‘마히토’. 사라져버린 새엄마 ‘나츠코’를 찾기 위해 탑으로 들어가고, 왜가리가 안내하는 대로 이세계의 문을 통과한다.</p>
+         </a>
+        </div>
+       </div><!-- box 5 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/어바웃타임.jpg" rel="g2" class="fancybox">
+          <img src="imgs/어바웃타임.jpg" alt="x">
+          <p>어바웃 타임</p>
+          <p><i class="fa-solid fa-star"> 9.25</i> <br>
+            초능력을 지닌 모태솔로 팀은 메리에게 첫눈에 반하게 된다. 하지만 그와 그녀의 사랑이 완벽해질수록 주변 상황들은 미묘하게 엇갈리기 시작한다.</p>
+         </a>
+        </div>
+       </div><!-- box 6 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/극한직업.jpg" rel="g1" class="fancybox">
+          <img src="imgs/극한직업.jpg" alt="x">
+          <p>극한직업</p>
+          <p><i class="fa-solid fa-star"> 9.20</i> <br>
+            불철주야 달리고 구르지만 실적은 바닥, 급기야 해체 위기를 맞는 마약반! 어느 날 절호의 기회가 찾아온다. 범인을 잡을 것인가, 닭을 잡을 것인가!</p>
+         </a>
+        </div>
+       </div><!-- box 7 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/신과함께.jpg" rel="g2" class="fancybox">
+          <img src="imgs/신과함께.jpg" alt="x">
+          <p>신과 함께-죄와 벌</p>
+          <p><i class="fa-solid fa-star"> 8.73</i> <br>
+            염라대왕에게 천년 동안 49명의 망자를 환생시키면 자신들 역시 인간으로 환생시켜 주겠다는 약속을 받은 삼차사들에게 48번째 망자이자 19년 만에 나타난 의로운 귀인 자홍이 나타난다.</p>
+         </a>
+        </div>
+       </div><!-- box 8 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/빅토리.jpg" rel="g1" class="fancybox">
+          <img src="imgs/빅토리.jpg" alt="x">
+          <p>빅토리</p>
+          <p><i class="fa-solid fa-star"> 8.24</i> <br>
+            1999년 세기말 거제, '필선'과 '미나'는 댄스 연습실을 마련하기 위해 서울에서 전학온 치어리더 '세현'을 내세워 치어리딩 동아리를 만든다.</p>
+         </a>
+        </div>
+       </div><!-- box 9 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/데드풀과울버린.jpg" rel="g2" class="fancybox">
+          <img src="imgs/데드풀과울버린.jpg" alt="x">
+          <p>데드풀과 울버린</p>
+          <p><i class="fa-solid fa-star"> 7.69</i> <br>
+            히어로 생활에서 은퇴한 후, 평범한 중고차 딜러로 살아가던 ‘데드풀’은 예상치 못한 거대한 위기를 맞아 모든 면에서 상극인 ‘울버린’을 찾아가게 된다.</p>
+         </a>
+        </div>
+       </div><!-- box 10 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/슈퍼배드.jpg" rel="g1" class="fancybox">
+          <img src="imgs/슈퍼배드.jpg" alt="x">
+          <p>슈퍼배드4</p>
+          <p><i class="fa-solid fa-star"> 7.45</i> <br>
+            미니언-파서블! 악당 짓 NO, 악당 처리 YES! 그루 패밀리는 빌런 ‘맥심’을 막아낼 수 있을까?</p>
+         </a>
+        </div>
+       </div><!-- box11 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/하이큐!!.jpg" rel="g2" class="fancybox">
+          <img src="imgs/하이큐!!.jpg" alt="x">
+          <p>하이큐!! 재능과 센스</p>
+          <p><i class="fa-solid fa-star"> 9.52</i> <br>
+            인터하이 예선 탈락 후, 강호 '아오바 죠사이' 고교와 붙게 된 '카라스노' 고교 배구팀. 다시 한 번 맞붙게 된 ‘카게야마’와 ‘오이카와’. 고교 사이의 경기에 모든 이들의 이목이 집중된다.</p>
+         </a>
+        </div>
+       </div><!-- box 12 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/탈주.jpg" rel="g1" class="fancybox">
+          <img src="imgs/탈주.jpg" alt="x">
+          <p>탈주</p>
+          <p><i class="fa-solid fa-star"> 8.05</i> <br>
+            휴전선 인근 북한 최전방 군부대. 중사 ‘규남’은 탈북을 시도한다. 그러나 보위부 소좌 ‘현상’에게 걸리고 마는데...</p>
+         </a>
+        </div>
+       </div><!-- box 13 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/플라이미투더문.jpg" rel="g2" class="fancybox">
+          <img src="imgs/플라이미투더문.jpg" alt="x">
+          <p>플라이 미 투 더 문</p>
+          <p><i class="fa-solid fa-star"> 7.94</i> <br>
+            1960년대 우주 경쟁 시대, NASA는 아폴로 11호 발사를 앞두고 마케팅 전문가를 고용한다. 인류 최대의 업적, 최초의 달 착륙은 진짜일까, 가짜일까?</p>
+         </a>
+        </div>
+       </div><!-- box 14 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/소년시절의너.jpg" rel="g1" class="fancybox">
+          <img src="imgs/소년시절의너.jpg" alt="x">
+          <p>소년시절의 너</p>
+          <p><i class="fa-solid fa-star"> 9.06</i> <br>
+            시험만 잘 치면 멋진 인생을 살 수 있다고 가르치는 세상. 우등생 소녀 ‘첸니엔’과 양아치 소년 ‘베이’는 수능을 하루 앞둔 어느 날 거대한 사건에 휘말리게 된다.</p>
+         </a>
+        </div>
+       </div><!-- box 15 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/한국이싫어서.jpg" rel="g2" class="fancybox">
+          <img src="imgs/한국이싫어서.jpg" alt="x">
+          <p>한국이 싫어서</p>
+          <p><i class="fa-solid fa-star"> 7.02</i> <br>
+             내가 왜 한국을 떠나느냐고? 두 마디로 요약하자면 ‘한국이 싫어서’. 세 마디로 줄이면 ‘여기서는 못 살겠어서’.</p>
+         </a>
+        </div>
+       </div><!-- box 16 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/핸섬가이즈.jpg" rel="g1" class="fancybox">
+          <img src="imgs/핸섬가이즈.jpg" alt="x">
+          <p>핸섬 가이즈</p>
+          <p><i class="fa-solid fa-star"> 8.30</i> <br>
+            자칭 터프가이 ‘재필’과 섹시가이 ‘상구’는 이사 첫날부터 동네 경찰의 감시 대상이 된다. “왜 다들 우리 집에 와서 죽고 난리야!”
+            </p>
+         </a>
+        </div>
+       </div><!-- box 17 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/존오브인터레스트.jpg" rel="g2" class="fancybox">
+          <img src="imgs/존오브인터레스트.jpg" alt="x">
+          <p>존 오브 인터레스트</p>
+          <p><i class="fa-solid fa-star"> 8.86</i> <br>
+            독일 장교 루돌프 회스의 가족이 사는 그들만의 꿈의 왕국 아우슈비츠. 마치 한 폭의 그림 같은 집. 과연 악마는 다른 세상을 사는가?</p>
+         </a>
+        </div>
+       </div><!-- box 18 -->
+       <div class="box odd">
+        <div class="inner">
+         <a href="imgs/나쁜녀석들.jpg" rel="g1" class="fancybox">
+          <img src="imgs/나쁜녀석들.jpg" alt="x">
+          <p>나쁜 녀석들: 라이드 오어 다이</p>
+          <p><i class="fa-solid fa-star"> 7.67</i> <br>
+            마이애미 강력반 최고의 콤비 ‘마이크’와 ‘마커스’. 사건의 진실을 밝히기 위해 위험한 수사를 시작하지만, 함정에 빠져 마약 카르텔 조직에게 쫓기는데...</p>
+         </a>
+        </div>
+       </div><!-- box 19 -->
+       <div class="box even">
+        <div class="inner">
+         <a href="imgs/베테랑2.jpg" rel="g2" class="fancybox">
+          <img src="imgs/베테랑2.jpg" alt="x">
+          <p>베테랑2</p>
+          <p><i class="fa-solid fa-star"> 7.90</i> <br>
+            밤낮없이 범죄들과 싸우는 베테랑 형사 '서도철'. 한 교수의 죽음으로 촉발된 연쇄살인사건에 막내 형사 '박선우'가 투입된다.
+            </p>
+         </a>
+        </div>
+       </div><!-- box 20 -->
+  
+      </div><!-- contents -->
+    </section><!-- main -->
+   </div><!-- container -->
+</body>
+</html>
